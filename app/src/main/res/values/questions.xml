@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_oceans">The Pacific Ocean is the largest ocean in the world!</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean!   </string>
+    <string name="question_africa">The source of the Nile river is in Egypt!</string>
+    <string name="question_americas">The Amazon river is the largest river in the Americas!</string>
+    <string name="question_asia">Lake Baikal is the world\'s largest and oldest fresh water lake.</string>
+</resources>
