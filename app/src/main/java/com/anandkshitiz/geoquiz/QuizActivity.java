@@ -93,6 +93,8 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //start Activity
                 Intent i = new Intent(QuizActivity.this, CheatActivity.class);
+                boolean ans = mQuestionBank[mCurrentIndex].isTrueQuestion();
+                i.putExtra(CheatActivity.EXTRA_ANSWER_IS_TRUE, ans);
                 startActivity(i);
             }
         });
